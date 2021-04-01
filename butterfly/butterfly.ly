@@ -26,30 +26,30 @@ upper = \relative c'' {
   <bes des> <g c> <bes des> <c ees> <des f> <ees ges> |
   
  <<
-   {aes r aes bes aes bes}
+   {aes8 aes16 bes aes bes}
    \\
    {ges-3 f-1 ees8-2 e-1}
  >> |
  <<
-   {aes16 r aes bes aes bes}
+   {aes8 aes16 bes aes bes}
    \\
    {ges16 f ees8 e}
  >> |
  <<
-   {aes16 r aes bes aes-3 bes-4}
+   {aes8 aes16 bes aes-3 bes-4}
    \\
    {ges16 f e8 ees}
  >> |
    <d c'>16 aes' f e-1 c-2 f-5 |
   
  <<
-   {bes r bes c bes c}
+   {bes8 bes16 c bes c}
    \\
    {ges f <d ges>8 <ees ges>8}
  >> |
   <a cis>16 fis cis b a a' |  
  <<
-   {bes r bes c bes c}
+   {bes8 bes16 c bes c}
    \\
    {ges f <d ges>8 <ees ges>8}
  >> |
@@ -109,7 +109,30 @@ upper = \relative c'' {
   <g aes>16 f e f <g aes c> f |
   <g c> e e' c b a |
   <ges aes> bes c <des ees> f <ges aes> |
-  <g a c> f <b, c e> a <aes bes ees> f |
+  <g a c> f <b, c e> a <aes bes ees> f | \bar "||"
+  
+  \key des \major
+  aes'16 f aes f ees c |
+  aes'16 f aes f ees c |
+  
+  <ges' aes>16 f <ges aes> f <des ees> c |
+  <ges' aes>16 f <ges aes> f <des ees> c |
+  <ges' aes>16 f <ges aes> f <des ees> c |
+  <bes des> <g c> <bes des> <c ees> <des f> <ees ges> |
+  
+  <ges aes>16 f <aes bes>-> f <des ees> c |
+  <ges' aes>16 f <des' ees>-> f, <des ees> c |
+  
+  <aes bes> g <ges aes> g <bes c> f |
+  <aes bes> g <ges aes> g <bes f'> f |
+  <aes bes> g <ges aes> f <ges aes> g |
+  <aes bes> g <aes bes> ces <des ees> ces |
+  <aes bes> g <ges aes> g <aes bes> ces |
+<<
+  {<des ees> ces <des ees> f ees des}
+  \\
+  {r4 <bes g'>8}
+>> |
     
 }
 
@@ -166,12 +189,35 @@ lower = \relative c'' {
   {<fis,, fis'> a'4}
 >> |
 
-   <fis, fis'>8 <aes' c d> <d,, d'> |
+   <f, f'>8 <aes' c d> <d,, d'> |
    <e e'> <g' c> <c,, c'> |
    <ees ees'> <ges' des'> <bes ges'> |
    <c f> <d,, d'> <ces'' ees>16 des, |
-   
   
+  \key des \major
+  R1*3/8 |
+  R1*3/8 |
+  
+  \clef treble
+  <bes'' des>8 d, <f a> |
+  <bes des>8 d, <f a> |
+  <bes des>8 d, <f a> |
+  <g, f'> des' <b fis' a> |
+  
+  <bes' des>8 d, <f a> |
+  <bes des>8 d, <f a> |
+  
+  \clef bass
+  <ces ees> des, <aes' d> |
+  <ces ees> des, <aes' d> |
+  <ces ees> des, <aes' d> |
+  <ces ees> aes <a ees' g> |
+  <ces ees> des, <aes' ees'> |
+<<
+  {<ces f>4 <e g>8}
+  \\
+  {r g, bes}  
+>> |
   
   
   
