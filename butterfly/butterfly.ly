@@ -62,25 +62,55 @@ upper = \relative c'' {
   \\
   {e16 d e d cis b}
 >> |
-
 <<
   {a'8 a fis}
   \\
   {e16 d e d cis b}
 >> |
-
 <<
   {a'8 a fis}
   \\
   {e16 d e d cis b}
 >> |
-
 <<
   {d4 fis8}
   \\
   {ais,16 gis ais b cis d}
->> | 
+>> |
+
+<<
+  {a'8 a fis}
+  \\
+  {e16 d e d cis b}
+>> |
+<<
+  {a'8 a fis}
+  \\
+  {e16 d e d cis b}
+>> |
+  e cis \tuplet 3/2 {d f aes} b d |
+  e f cis bes f c | \bar "||"
   
+  \key a \minor
+  
+<<
+  {b c b c d e}
+  \\
+  {a,8 a aes}
+>> |
+<<
+  {b16 c b c d e}
+  \\
+  {a,8 a aes}
+>> |
+  <a b>16 c d e g e' |
+  {<fis, a d> e' d a e a,-4} |
+  
+  <g aes>16 f e f <g aes c> f |
+  <g c> e e' c b a |
+  <ges aes> bes c <des ees> f <ges aes> |
+  <g a c> f <b, c e> a <aes bes ees> f |
+    
 }
 
 lower = \relative c'' {
@@ -107,22 +137,40 @@ lower = \relative c'' {
   <bes bes'> f' <d aes'> |
   
   \clef bass
-  
   ees, c' ges' |
   b,, a' dis |
   ees, c' ges' |
-  d,, c' \clef treble <ees' c'> |
+  d, c' \clef treble <ees c'> |
   
   \key bes \major
-  
   g, <e' bes'> <cis g'> |
   g <e' bes'> <cis g'> |
   g <e' bes'> <cis g'> |
-  
   \clef bass
-  
   e, <d' fis> <b fis'>
   
+  \clef treble
+  g <e' bes'> <cis g'> |
+  g <e' bes'> <cis g'> |
+  b <f' a> <f a> |
+  \clef bass
+  e, <d' gis> <d gis> |
+  
+  \key a \minor  
+  <c e> <c e> <bes f'> |
+  <a, a'>-> <c' e> <bes f'> |
+  <a, a'> <aes aes'> <g g'> |
+<<
+  {r <e'' a> <d fis>}
+  \\
+  {<fis,, fis'> a'4}
+>> |
+
+   <fis, fis'>8 <aes' c d> <d,, d'> |
+   <e e'> <g' c> <c,, c'> |
+   <ees ees'> <ges' des'> <bes ges'> |
+   <c f> <d,, d'> <ces'' ees>16 des, |
+   
   
   
   
