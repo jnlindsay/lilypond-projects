@@ -153,6 +153,34 @@ upper = \relative c'' {
 >> |
   <d' g> bes g d bes c |
   <bes des> a <bes des> c <des f> g, |
+  
+  <des' ees> c <des ees> c <aes bes> g |
+  <des' ees> c <des ees> c <aes bes> g |
+  <des' ees> c <des ees> c bes-2 aes-1 |
+  <f-2 g-3> e <f g> aes bes-5 ces-1 |
+  
+  <des ees> c <e g> c <aes bes> g |
+  <des' ees> c <e g> c <aes bes> g |
+  <des' ees> <c f> <b g'> d b aes |
+  <f g> e <f g> aes bes ces |
+  
+<<
+  {ees8 ees16 f ees f}
+  \\
+  {des c bes8 b}
+>> |
+<<
+  {ees ees16 f ees f}
+  \\
+  {des c bes8 b}
+>> |
+<<
+  {ees ees16 f ees f}
+  \\
+  {des c b8 bes}
+>> |
+
+<a ees' g>  
 
 }
 
@@ -266,6 +294,21 @@ lower = \relative c'' {
   \\
   {<ees, ees'> des''4}
 >> |
+
+<ees aes>8 aes, <des fes> |
+<ees aes>8 aes, <des fes> |
+<ees aes>8 aes, <des fes> |
+<b d> d, <des' g> |
+
+<ees aes>8 aes, <des fes> |
+<ees aes>8 aes, <des fes> |
+<ees aes>8 aes, <d f> |
+<b d> d, <des' g> |
+
+<ees aes> aes, <des g> |
+<ees aes> aes, <des g> |
+<ees aes> <g, g'> <ges ges'> |
+<f f'>
 
 }
 
