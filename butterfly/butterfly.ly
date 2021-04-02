@@ -133,7 +133,27 @@ upper = \relative c'' {
   \\
   {r4 <bes g'>8}
 >> |
-    
+
+  <ees f>16 c <bes des> c <d g> b |
+  <ees f> c <bes des> c <d a'> b |
+  <ees f> c <bes des> a <aes bes> g |
+  <aes bes> a <bes des> c <d g> c |
+  <ees f> c <bes des> a <bes des> c |
+<<
+  {<ees f> c <ees f> fis g8}
+  \\
+  {r4 c,16 a}
+>> |
+
+  <bes' c> aes f c aes bes |
+<<
+  {r4 aes'8}
+  \\
+  {<bes, ces>16 aes bes ces des ees}
+>> |
+  <d' g> bes g d bes c |
+  <bes des> a <bes des> c <des f> g, |
+
 }
 
 lower = \relative c'' {
@@ -219,8 +239,34 @@ lower = \relative c'' {
   {r g, bes}  
 >> |
   
-  
-  
+  <des g> g, <b f' a> |
+  <des g> g, <b f' a> |
+  <des f g> g, c, |
+  c, c' <bes' e> |
+  <des g> g, <ges ges'> |
+  <f f'> <f, f'> <ees ees'> |
+
+<<
+  {r8 d'' c}
+  \\
+  {<d,, d'> <a'' g'>4}  
+>> |
+<<
+  {r8 g' f}
+  \\
+  {<des,, des'>8 <aes'' ces>4 }
+>> |
+<<
+  {r8 e' d}
+  \\
+  {<e,, e'> <bes'' a'>4}
+>> |
+<<
+  {r8 <aes f'> <g ees'>}
+  \\
+  {<ees, ees'> des''4}
+>> |
+
 }
 
 \score {  
