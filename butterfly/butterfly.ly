@@ -395,8 +395,8 @@ ais16 gis' fis cisis gis fis |
 
 <dis fis>8 <dis fis>16 <eis gis> <dis fis> <eis gis> |
 <dis fis>8 <dis fis>16 <eis gis> <dis fis> <eis gis> |
-<dis fis>8 <dis fis>16 <eis gis> <dis fis> <eis gis> |
-<dis fis>8 <dis fis>16 <eis gis> <dis fis> <eis gis> |
+R4. |
+R4. |
   
 fis'16 dis fis dis cis ais |
 fis'16 dis fis dis cis ais |
@@ -404,10 +404,37 @@ fis'16 dis fis dis cis ais |
 <fis' gis>16 dis <fis gis> dis <b cis> ais |
 <fis' gis> dis <fis gis> dis <b cis> gis |
 <fis' gis> dis <fis gis> dis <b cis> gis |
-<e fis> dis <e fis> g gis ais' |
+<fis gis> e <fis gis> a ais <d g> |
 
-<fis gis> dis <cis' dis> dis, <b cis> gis |
-<fis' gis> dis <cis' dis> dis, <b cis> gis |
+<fis gis>16 dis <gis ais>-> dis <b cis> ais |
+<fis' gis> dis <gis ais>-> dis <b cis> ais |
+<fis' gis> dis <gis ais>-> dis <b cis> ais |
+<fis gis> e <fis gis> a ais <d g> |
+
+<<
+  { gis8 gis16 ais gis ais }
+  \\
+  { fis16 e dis8 d }
+>> |
+<<
+  { gis8 gis16 ais gis ais }
+  \\
+  { fis16 e dis8 d }
+>> |
+<cis fis>8 <cis' dis>16 b ais gis  |
+<<
+  { b4. }
+  \\
+  { g16 fis e dis cisis eis }
+>> |
+
+<fis gis>16 dis <fis gis> dis <b cis> gis |
+<fis' gis> dis <fis gis> dis <b cis> gis |
+<fis' gis> dis <fis gis> dis <b cis> gis |
+<fis gis> e <fis gis> a ais ais' |
+
+<fis gis> dis <cis' dis>-> dis, <b cis> gis |
+<fis' gis> dis <cis' dis>-> dis, <b cis> gis |
 <fis' gis> e <fis gis> a ais b |
 \ottava #1 c <a' c> f c \ottava #0 <fis, ais> e |
 
@@ -417,6 +444,7 @@ fis'16 dis fis dis cis ais |
   \\
   { g16 fis e dis d f }
 >>
+
 <dis fis>8 <cis dis>16 b ais gis |
 <<
   { b4. }
@@ -790,10 +818,59 @@ fis'16 dis fis dis cis ais |
 R4. |
 R4. |
 
-\clef bass <dis, fis>8 b, <g' b e> |
+\clef bass
+<dis, fis>8 fis, <cisis' eis> |
+<dis fis>8 fis, <cisis' eis> |
+<dis fis>8 fis, <cisis' eis> |
+<cis, b'> gis' <fis e'> |
+
+<dis' fis>8 fis, <cisis' eis> |
+<dis fis>8 fis, <cisis' eis> |
+<dis fis>8 fis, <cisis' eis> |
+<cis, b'> gis' <fis e'> |
+
+<dis' fis> <e ais> fis, |
+<dis' fis> <e ais> fis, |
+<dis> <cis' fis> d, |
+<<
+  { r8 e'4 }
+  \\
+  { cis,8 b' <fis ais>}
+>> |
+
+<dis' fis>8 b, <gis' d'f> |
 <dis' fis>8 b, <gis' d'f> |
 <cis fis> <dis, ais'> <d a'> |
-<cis gis'> b' <fis cis' e> |
+<<
+  { r8 e'4  }
+  \\
+  { <cis, gis'>8 b' <fis cis'> }
+>> |
+
+<fis' b>16 b, <cis e>8 fis, |
+<fis' b>16 b, <cis e>8 fis, |
+\clef treble <gis' b d> d \clef bass
+  <cis, cis'> |
+<c c'> \clef treble <a'' c f> \clef bass
+  <fis, e'> |
+
+\clef treble <b fis'> <b' dis> fis |
+<b cis> e, <g, eis'> |
+
+\clef bass <b fis'> <dis fis> fis, |
+<b cis> e, <g, eis'> |
+
+<b fis'> <dis fis> fis, |
+<cis cis'> <e, e'> <g g'> |
+
+<b b'> r \clef treble <fis''' fis'> |
+<b b'> r <fis, fis'> |
+<b b'> r \clef bass <fis, fis'> |
+<b b'> r <fis, fis'> |
+
+<b, b'>4.-> |
+<b'' b'>4. |
+<b,, b'> 4. |
 
 
 
