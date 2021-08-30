@@ -303,8 +303,144 @@ ais16 gis' fis cisis gis fis |
 <dis fis>8 <dis fis>16 <eis gis> <dis fis> <eis gis> |
 <dis fis> <eis gis> <dis fis> <eis gis> <dis fis> <eis gis> |
 
+\time 3/4
+<fis ais>4 <dis fis>4. <eis gis>8 |
+<fisis ais>2. |
+<<
+  { <fis ais>4 <dis fis>4. <eis gis~ >8 }
+  \\
+  {}
+>> |
+<<
+  { <gis ais>4. }
+  \\
+  { fis4. dis8 eis4 }
+>> |
+
+<<
+  { ais4 bis4. \set fingeringOrientations = #'(up)
+     <fis'-2 ais-4>8 }
+  \\
+  {fis,4~ fis4. }
+>> |
+<eis' gis>8 <dis-3 fis-5> <cis eis> <b dis> <ais-3 cis-5> <gis b> |
+<fis ais>4 <ais cis>4. <fis ais>8 |
+<eis gis>2. |
+
+<fis ais>4 <dis fis>4. <eis gis>8 |
+<fis ais>4 <fis ais>8 <gis b> <fis ais> <gis b> |
+<ais cis>4 <fis ais>4. <ais cis>8 |
+<fis ais bis cisis eis>2.\arpeggio |
+
+<dis fis>4 <b dis>4. <dis fis>8 |
+<cisis eis ais>2. |
+
+<<
+  { <ais' ais'>4 <fis fis'>4. <gis gis'>8 }
+  \\
+  { dis'4~ dis4. r8 }
+>> |
+<ais ais'>2. |
+<<
+  { <ais ais'>4 <fis fis'>4. <gis gis'>8 }
+  \\
+  { dis'4~ dis4. r8 }
+>> |
+<ais ais'>2. |
+
+<<
+  { <dis dis'>4 <gis, gis'>4. <ais ais'>8 }
+  \\
+  { gis'4 dis2 }
+>> |
+<b dis b'>4 <dis dis'> \ottava #1 <ais' ais'> |
+<<
+  { <gis gis'> <ais ais'>4. <b b'>8 }
+  \\
+  { dis2. }
+>> |
+<cis g' b cis>2. |
+
+<<
+  { <dis b' dis>4 <fis, fis'>4. <dis dis'>8 }
+  \\
+  { r4 b'4.~ b8  }
+>> |
+<<
+  { \ottava #0 <disis, disis'>4 <bis bis'> <gis gis'> }
+  \\
+  { gisis'2 r4 }
+>> |
+<<
+  { <fis, fis'>4 <e e'> <dis dis'> }
+  \\
+  { b'2. }
+>> |
+<<
+  { <g g'>4 <b, b'> <cis cis'> }
+  \\
+  { b'4 e,2 }
+>> |
 
 
+\time 3/8
+<<
+  { <dis fis dis'>4. }
+  \\
+  { r8 <dis fis>16 <eis gis> <dis fis> <eis gis> }
+>> |
+<dis fis>8 <dis fis>16 <eis gis> <dis fis> <eis gis> |
+<dis fis>8 <dis fis>16 <eis gis> <dis fis> <eis gis> |
+<dis fis>8 <dis fis>16 <eis gis> <dis fis> <eis gis> |
+
+<dis fis>8 <dis fis>16 <eis gis> <dis fis> <eis gis> |
+<dis fis>8 <dis fis>16 <eis gis> <dis fis> <eis gis> |
+<dis fis>8 <dis fis>16 <eis gis> <dis fis> <eis gis> |
+<dis fis>8 <dis fis>16 <eis gis> <dis fis> <eis gis> |
+  
+fis'16 dis fis dis cis ais |
+fis'16 dis fis dis cis ais |
+
+<fis' gis>16 dis <fis gis> dis <b cis> ais |
+<fis' gis> dis <fis gis> dis <b cis> gis |
+<fis' gis> dis <fis gis> dis <b cis> gis |
+<e fis> dis <e fis> g gis ais' |
+
+<fis gis> dis <cis' dis> dis, <b cis> gis |
+<fis' gis> dis <cis' dis> dis, <b cis> gis |
+<fis' gis> e <fis gis> a ais b |
+\ottava #1 c <a' c> f c \ottava #0 <fis, ais> e |
+
+<dis b'>8 <cis' dis>16 b ais gis |
+<<
+  { b4. }
+  \\
+  { g16 fis e dis d f }
+>>
+<dis fis>8 <cis dis>16 b ais gis |
+<<
+  { b4. }
+  \\
+  { g16 fis e dis d f }
+>>
+
+<dis fis>8 <cis dis>16 b ais gis |
+\clef bass
+<<
+  { b4. }
+  \\
+  { g16 fis e dis d f }
+>>
+
+<dis fis>8 \clef treble
+  <dis''' fis>16 <eis gis> <dis fis> <eis gis> |
+<dis fis>8 <dis, fis>16 <eis gis> <dis fis> <eis gis> |
+<dis fis>8 <dis, fis>16 <eis gis> <dis fis> <eis gis> |
+\clef bass <dis fis>8 <dis, fis>16 <eis gis> <dis fis> <eis gis> |
+
+<dis fis>4. |
+\clef treble <b''' b'> |
+<b,, b'> | \bar "|."
 
 }
 
@@ -598,8 +734,66 @@ cis <b' e> <dis, dis'> |
 <b~ fis'~>4. |
 <b fis'>4. |
 
+\time 3/4
 
+b8 fis' b2 |
+eis,8 b' dis2 |
+b,8 fis' b2 |
+<<
+  { ais,8 gis' bis4 cisis4 }
+  \\
+  { r8 gis8~ gis2 }
+>> |
 
+dis8 ais' bis4 fis' | 
+eis,8 b' cis4 gis' |
+fis,8 cis' dis eis fis4 |
+ais,,8 gis' bis dis cisis4 |
+
+dis,8 ais' bis2 |
+d,8 gis <b d>2 |
+cis,8 ais' cis4 fis |
+bis,,8 fis' ais cisis dis4 |
+
+<gis,, fis'>2. |
+<cis gis' b>2. |
+
+r16 gis'' fis cis dis cis fis, gis fis b, gis' fis |
+fisis cis' dis cis ais'-- cis, dis cis eis-- cis dis cis |
+b gis' fis cis dis cis fis, gis fis b, fis' f |
+e-- ais cisis ais gis' ais, cisis ais dis, fisis' cis ais |
+
+\clef treble
+gis gis' fis eis dis eis dis cis b ais gis g |
+fis b' ais gis fis dis cis b ais gis fis b |
+eis dis' cis b ais gis fisis ais gis dis cis b |
+\clef bass e, \clef treble g''-2 fis e-1 cis b g e-1
+  \clef bass cis b g-1 e-2 |
+
+<fis, fis'> \clef treble  b''' fis dis b ais gis fis e dis cis b |
+<fis fis'> c'' gis fis e dis cis c-1 gis a gis fis |
+\clef bass <cis, e'> cis''-2 b ais gis e-1 dis cis b gis fis e |
+<cis, cis'> \ottava #0 
+  e''' cis b g a g fis e fis, e' ais |
+  
+<b, fis' b>4.~ |
+<b fis' b>4.~ |
+<b fis' b>4.~ |
+<b fis' b>4. |
+
+\clef treble
+fis'''8~ fis16 dis cis ais |
+fis'8~ fis16 dis cis ais |
+fis'16 dis fis dis cis ais |
+fis'16 dis fis dis cis ais |
+
+R4. |
+R4. |
+
+\clef bass <dis, fis>8 b, <g' b e> |
+<dis' fis>8 b, <gis' d'f> |
+<cis fis> <dis, ais'> <d a'> |
+<cis gis'> b' <fis cis' e> |
 
 
 
