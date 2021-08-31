@@ -1,7 +1,7 @@
 \version "2.20.0"
 
 \header {
-  title = "USyd PianoSoc Composition Competition"
+  title = "Mosaic Butterfly"
   composer = "Lavena Elfric"
   subtitle = "August 31, 2021"
 }
@@ -48,23 +48,23 @@ upper = \relative c'' {
      <d c'>16( aes' f e-1 c-2 f-5) |
     
    <<
-     { bes8( bes16 c bes c }
+     { bes8(\< bes16 c bes c\! }
      \\
      { ges f <d ges>8 <ees ges>8 }
    >> | 
    <<
-     { <a cis>16 fis cis b a a') }
+     { <a\> cis>16 fis cis b a a') \! }
      \\
      {}
    >> |
    <<
-     { bes8( bes16 c bes c }
+     { bes8( \< bes16 c bes c \! }
      \\
      { ges f <d ges>8 <ees ges>8 }
    >> |
    <<
-     { <a d>16 -\markup{ \italic "rit." }
-        fis d dis fis b) }
+     { <a d>16 \> -\markup{ \italic "rit." }
+        fis d dis fis b) \! }
      \\
      {}
    >> | \bar "||"
@@ -72,7 +72,7 @@ upper = \relative c'' {
      \key g \minor
      
   <<
-    { a8 -\markup{ \italic "accel." } a fis }
+    { a8 \p -\markup{ \italic "accel." } a fis }
     \\
     { e16 d e d cis b }
   >> |
@@ -102,8 +102,8 @@ upper = \relative c'' {
     \\
     { e16 d e d cis b }
   >> |
-    e( cis \tuplet 3/2 { d f aes } b d |
-    e f cis bes f c) | \bar "||"
+    e( \< cis \tuplet 3/2 { d f aes } b d \! |
+    e \> f cis bes f c) \! | \bar "||"
     
     \key a \minor
     
@@ -117,26 +117,26 @@ upper = \relative c'' {
     \\
     { a,8 a aes }
   >> |
-  <a b>16( c d e g e' |
-  { <fis, a d> e' d a e a,-4) } |
+  <a b>16( \< c d e g e' \! |
+  <fis, a d> \> e' d a e a,-4) \! |
   
-  <g aes>16 f e f <g aes c> f |
+  <g aes>16 \f f e f <g aes c> f |
   <g c> e e' c b a |
-  <ges aes> bes c <des ees> f <ges aes> |
-  <g a c>^\markup{ \italic "rit." }
-    f <b, c e> a <aes bes ees>-- f \fermata | \bar "||"
+  <ges aes> \< bes c <des ees> f <ges aes> \! |
+  <g a c>^\markup{ \italic "rall." } \>
+    f <b, c e> a <aes bes ees>-- f \fermata \! | \bar "||"
   
   \key des \major
-  aes'16 -\markup{ \italic "a tempo" }
+  aes'16 -\markup{ \italic "a tempo" } \p
     f aes f ees c |
   aes'16 -\markup{ \italic "rall." }
     f aes f ees c |
   
   <ges' aes>16 -\markup{ \italic "accel." }
     f <ges aes> f <des ees> c |
-  <ges' aes>16 f <ges aes> f <des ees> c |
   <ges' aes>16 -\markup{ \italic "a tempo" }
     f <ges aes> f <des ees> c |
+  <ges' aes>16 f <ges aes> f <des ees> c |
   <bes des> <g c> <bes des> <c ees> <des f> <ees ges> |
   
   <ges aes>16\< f <aes bes>-> f <des ees> c |
@@ -159,22 +159,22 @@ upper = \relative c'' {
   <aes bes> a <bes des> c <d g> c |
   <ees f> c <bes des> a <bes des> c |
   <<
-    { <ees f> c <ees f> fis g8 }
+    { <ees f> \< c <ees f> fis g8 \! }
     \\
     { r4 c,16 a }
   >> |
   
-    <bes' c> aes f c aes bes |
+    <bes' c> \> aes f c aes bes \! |
   <<
     { r4 aes'8 }
     \\
-    { <bes, ces>16 aes bes ces des ees }
+    { <bes, ces>16 \< aes bes ces des ees \! }
   >> |
-    <d' g>-- bes g d bes c |
-    <bes des> -\markup{ \italic "rit." }
-      a <bes des> c <des f> g, |
+    <d' g>-- \f bes g d bes c |
+    <bes des> \> -\markup{ \italic "rit." }
+      a <bes des> c <des f> g, \! |
     
-    <des' ees> -\markup{ \italic "accel." }
+    <des' ees> -\markup{ \italic "accel." } \p
       c <des ees> c <aes bes> g |
     <des' ees> -\markup{ \italic "a tempo" }
       c <des ees> c <aes bes> g |
@@ -205,15 +205,16 @@ upper = \relative c'' {
   <<
     { g'8) }
     \\
-    { <a, ees'>16 b c c' f, f' }
+    { <a, ees'>16 \< b c c' f, f' \! }
   >> |
-  <des ees>( c <bes des> a <aes bes> g |
-  <fis a> e <d fis> c <b d> a |
-  <aes bes> g <f aes> g <aes bes> b |
-  <aes c> f <aes c> f' c c' |
+  <des ees>( \f \> c <bes des> a <aes bes> g |
+  <fis a> e <d fis> c <b d> a \! |
+  <aes bes> \< g <f aes> g <aes bes> b |
+  <aes c> f <aes c> f' c c' \! |
   
-  <g bes>8) \ottava #1
-    <aes' bes>16( g <f aes> ees |
+  <g bes>8) \p \ottava #1
+  <aes' bes>16( \f -\markup{ \italic "dim." }
+    g <f aes> ees |
   <c d> a d a' a, d |
   <g, bes>8) <ees' g>16( bes g ees |
   \ottava #0 <d fis> a a' fis d a |
@@ -221,7 +222,7 @@ upper = \relative c'' {
   <g bes>8) |
   
   \time 3/8
-  <fis c'>16 d' <fis, c'> d' <g, bes>8 |
+  <fis c'>16 \p d' <fis, c'> d' <g, bes>8 |
   <fis c'>16 d' <fis, c'> d' <g, bes>8 |
   <fis c'>16 d' <fis, c'> d' <g, bes>8 |
   <<
@@ -237,22 +238,22 @@ upper = \relative c'' {
   >> |
   
   \time 3/8
+  <b d f>16 \p g' <b, d f> g' <c, ees>8 |
   <b d f>16 g' <b, d f> g' <c, ees>8 |
   <b d f>16 g' <b, d f> g' <c, ees>8 |
-  <b d f>16 g' <b, d f> g' <c, ees>8 |
-  <b d f>16 g' <c, ees> aes' c g' |
+  <b d f>16 g' <c, ees> \< aes' c g' |
   
-  <des f bes>( <a' c> <g bes> <f aes> <ees g> <des f> |
+  <des f bes>--( \mf \> <a' c>-- <g bes> <f aes> <ees g> <des f> |
   <<
     { ees des c8 bes16 des }
     \\
     { c bes a aes g8 }
   >> |
-  \time 1/8 <aes c>) |
+  \time 1/8 <aes c>) \! |
   
   \time 3/8
   <<
-    { <bes c>16 des <a c> des <aes c>8 }
+    { <bes c>16 \p des <a c> des <aes c>8 }
     \\
     { g8 f4 }
   >> |
@@ -268,17 +269,17 @@ upper = \relative c'' {
   >> |
   
   \time 4/8
-  <aes c>16( <f des'> <g c ees> \arpeggio
-    bes' g ees c bes) |
+  <aes c>16( \< <f des'> <g c ees> \arpeggio
+    bes' \! g \> ees c bes) \! |
   \time 3/8
-  <f aes>( <g bes> <aes c> <e' g> <f c'> g |
-  <f aes> <g bes> <aes c> <f aes> <des f> <c ees> |
-  <aes c>4 <g bes>8 |
+  <f aes>( \< <g bes> <aes c> <e' g> <f c'> g |
+  <f aes> <g bes> <aes c> <f aes> <des f> <c ees> \! |
+  <aes c>4 \> <g bes>8 |
   \time 1/8
-  <c, ees>8) |
+  <c, ees>8) \! |
   
   \time 3/8
-  <b d f>16 g' <b, d f> g' <c, ees>8 |
+  <b d f>16 \p g' <b, d f> g' <c, ees>8 |
   <b d f>16 g' <b, d f> g' <c, ees>8 |
   <b d f>16 g' <b, d f> g' <c, ees>8 |
   <e fis gis>16 ais <d, f gis> ais' <f b>8 |
@@ -289,11 +290,12 @@ upper = \relative c'' {
   <b' dis>16 fis' <b, cis e> fis' <c ees>8 |
   <b dis>16 fis' <b, cis e> fis' <c ees>8 |
   <b dis>16 fis' <b, cis e> fis' <c ees>8 |
-  <b dis e>16 a' <b, cis e> a' <c, aes'>8 \fermata |
+  <b dis e>16 \f a' <b, cis e> a' <c, aes'>8 \fermata |
     \bar "||"
   
   \key gis \minor
-  <b dis>16\pp gis' <b, dis> gis' <b, dis>8 |
+  <b dis>16 \pp ^\markup{ \italic "molto staccato" }
+    gis' <b, dis> gis' <b, dis>8 |
   <c f>16 c' a f c a |
   <g bes> <gis b> <ais cis> <gis b> <g bes>8 |
   <fis ais>16 <gis b> <ais cis> <gis b> <fis ais>8|
@@ -350,6 +352,12 @@ upper = \relative c'' {
     {}
   >> |
   <<
+    { <dis fis> <eis gis> <dis fis>
+        <eis gis> <dis fis> <eis gis> }
+    \\
+    {}
+  >> |
+  <<
     { <dis fis> -\markup{ \italic "rit." } 
         <eis gis> <dis fis> <eis gis> <dis fis> <eis gis>) }
     \\
@@ -358,7 +366,155 @@ upper = \relative c'' {
   
   \time 3/4
   \tempo "Moderato" 4 = 110
-  <fis ais>4( -\markup{ \italic "a tempo" }
+  <fis ais>4( -\markup{ \italic "cantabile" } \p
+    <dis fis>4. <eis gis>8 |
+  <fisis ais>2.) |
+  <<
+    { <fis ais>4( <dis fis>4. <eis gis~ >8 }
+    \\
+    {}
+  >> |
+  <<
+    { <gis ais>4.) }
+    \\
+    { fis4.( dis8 eis4) }
+  >> |
+  
+  <<
+    { ais4( bis4.) \set fingeringOrientations = #'(up) }
+    \\
+    {fis4~ \< fis4. <fis'-2 ais-4>8( \! }
+  >> |
+  <<
+    {}
+    \\
+    { <eis gis>8 \> <dis-3 fis-5> <cis eis> <b dis> 
+        <ais-3 cis-5> <gis b> \! }
+  >> |
+  <<
+    {}
+    \\
+    { <fis ais>4 <ais cis>4. <fis ais>8 }
+  >> |
+  <<
+    {}
+    \\
+    {<eis gis>2.) }
+  >> |  
+  
+  <fis ais>4( \p <dis fis>4. <eis gis>8 |
+  <fis ais>4 <fis ais>8 \< <gis b> <fis ais> <gis b> |
+  <ais cis>4 <fis ais>4. <ais cis>8 |
+  <fis ais bis cisis eis>2.)-- \! \f \arpeggio |
+  
+  <dis fis>4( \p <b dis>4. <dis fis>8 |
+  <cisis eis ais>2.) \arpeggio \fermata | \bar "||"
+  
+  <<
+    { <ais' ais'>4( _\markup{ \italic "slower" }
+        ^\markup{ \italic "cantabile" }
+        <fis fis'>4. <gis gis'>8 }
+    \\
+    { dis'4~ dis4. r8 }
+  >> |
+  <<
+    { <ais ais'>2.) }
+    \\
+    {}
+  >> |  
+  <<
+    { <ais ais'>4( <fis fis'>4. <gis gis'>8 }
+    \\
+    { dis'4~ dis4. r8 }
+  >> |
+  <<
+    { <ais ais'>2.) }
+    \\
+    {}
+  >> |  
+  
+  <<
+    { <dis dis'>4( -\markup{ \italic "cresc." }
+        <gis, gis'>4. <ais ais'>8 }
+    \\
+    { gis'4 dis2 }
+  >> |
+  <<
+    { <b dis b'>4 <dis dis'> \ottava #1 <ais' ais'> }
+    \\
+    {}
+  >> |
+  <<
+    { <gis gis'> \< <ais ais'>4. <b b'>8 \! }
+    \\
+    { dis2. }
+  >> |
+  << 
+    { <cis g' b cis>2.- ) \f }
+    \\
+    {}
+  >> |
+  
+  <<
+    { <dis b' dis>4(-- <fis, fis'>4. <dis dis'>8 }
+    \\
+    { r4 b'4.~ b8  }
+  >> |
+  <<
+    { \ottava #0 <disis, disis'>4
+      -\markup{ \italic "dim." }
+      <bis bis'> <gis gis'> }
+    \\
+    { gisis'2 r4 }
+  >> |
+  <<
+    { <fis, fis'>4 -\markup{ \italic "rit." }
+        <e e'> <dis dis'> }
+    \\
+    { b'2. }
+  >> |
+  <<
+    { <g g'>4 <b, b'> <cis cis'> }
+    \\
+    { b'4 e,2 }
+  >> |
+  
+  \time 3/8
+  \tempo "Presto"
+  <<
+    { <dis fis dis'>4.) \pp }
+    \\
+    { <dis fis>8( <dis fis>16 <eis gis> <dis fis> <eis gis> }
+  >> |
+  <<
+    {}
+    \\
+    { <dis fis>8 <dis fis>16 <eis gis>
+        <dis fis> <eis gis> }
+  >> |
+  <<
+    {}
+    \\
+    { <dis fis>8 <dis fis>16 <eis gis>
+        <dis fis> <eis gis> }
+  >> |
+  <<
+    {}
+    \\
+    { <dis fis>16 <eis gis> <dis fis> <eis gis>
+        <dis fis> <eis gis> }
+  >> |
+  <<
+    {}
+    \\
+    { <dis fis>16 -\markup{ \italic "rit." }
+        <eis gis> <dis fis> <eis gis>
+        <dis fis> <eis gis>) }
+  >> | \bar "||"
+  
+  \time 3/4
+  \tempo "Moderato"
+  <fis ais>4( -\markup{ \italic "cantabile" } \p
     <dis fis>4. <eis gis>8 |
   <fisis ais>2.) |
   <<
@@ -392,163 +548,21 @@ upper = \relative c'' {
     {}
     \\
     {<eis gis>2.) }
-  >> |  
+  >> |
   
   <fis ais>4( <dis fis>4. <eis gis>8 |
-  <fis ais>4 <fis ais>8 <gis b> <fis ais> <gis b> |
+  <fis ais>4 \< <fis ais>8 <gis b> <fis ais> <gis b> |
   <ais cis>4 <fis ais>4. <ais cis>8 |
-  <fis ais bis cisis eis>2.) \arpeggio |
+  <fis ais bis cisis eis ais>2.) \! \mf \arpeggio |
   
-  <dis fis>4( <b dis>4. <dis fis>8 |
-  <cisis eis ais>2.) |
-  
-  <<
-    { <ais' ais'>4( <fis fis'>4. <gis gis'>8 }
-    \\
-    { dis'4~ dis4. r8 }
-  >> |
-  <<
-    { <ais ais'>2.) }
-    \\
-    {}
-  >> |  
-  <<
-    { <ais ais'>4( <fis fis'>4. <gis gis'>8 }
-    \\
-    { dis'4~ dis4. r8 }
-  >> |
-  <<
-    { <ais ais'>2.) }
-    \\
-    {}
-  >> |  
-  
-  <<
-    { <dis dis'>4( <gis, gis'>4. <ais ais'>8 }
-    \\
-    { gis'4 dis2 }
-  >> |
-  <<
-    { <b dis b'>4 <dis dis'> \ottava #1 <ais' ais'> }
-    \\
-    {}
-  >> |
-  <<
-    { <gis gis'> <ais ais'>4. <b b'>8 }
-    \\
-    { dis2. }
-  >> |
-  << 
-    { <cis g' b cis>2.) }
-    \\
-    {}
-  >> |
-  
-  <<
-    { <dis b' dis>4( <fis, fis'>4. <dis dis'>8 }
-    \\
-    { r4 b'4.~ b8  }
-  >> |
-  <<
-    { \ottava #0 <disis, disis'>4 <bis bis'> <gis gis'> }
-    \\
-    { gisis'2 r4 }
-  >> |
-  <<
-    { <fis, fis'>4 -\markup{ \italic "rit." }
-        <e e'> <dis dis'> }
-    \\
-    { b'2. }
-  >> |
-  <<
-    { <g g'>4 <b, b'> <cis cis'> }
-    \\
-    { b'4 e,2 }
-  >> |
-  
-  \time 3/8
-  \tempo "Presto"
-  <<
-    { <dis fis dis'>4.) }
-    \\
-    { <dis fis>8( <dis fis>16 <eis gis> <dis fis> <eis gis> }
-  >> |
-  <<
-    {}
-    \\
-    { <dis fis>8 <dis fis>16 <eis gis>
-        <dis fis> <eis gis> }
-  >> |
-  <<
-    {}
-    \\
-    { <dis fis>8 <dis fis>16 <eis gis>
-        <dis fis> <eis gis> }
-  >> |
-  <<
-    {}
-    \\
-    { <dis fis>16 <eis gis> <dis fis> <eis gis>
-        <dis fis> <eis gis> }
-  >> |
-  <<
-    {}
-    \\
-    { <dis fis>16 -\markup{ \italic "rit." }
-        <eis gis> <dis fis> <eis gis>
-        <dis fis> <eis gis>) }
-  >> |
-  
-  \time 3/4
-  \tempo "Moderato"
-  <fis ais>4( <dis fis>4. <eis gis>8 |
-  <fisis ais>2.) |
-  <<
-    { <fis ais>4( <dis fis>4. <eis gis~ >8 }
-    \\
-    {}
-  >> |
-  <<
-    { <gis ais>4.) }
-    \\
-    { fis4.( dis8 eis4) }
-  >> |
-  
-  <<
-    { ais4( bis4.) \set fingeringOrientations = #'(up) }
-    \\
-    {fis4~ fis4. <fis'-2 ais-4>8( }
-  >> |
-  <<
-    {}
-    \\
-    { <eis gis>8 <dis-3 fis-5> <cis eis> <b dis> 
-        <ais-3 cis-5> <gis b> }
-  >> |
-  <<
-    {}
-    \\
-    { <fis ais>4 <ais cis>4. <fis ais>8 }
-  >> |
-  <<
-    {}
-    \\
-    {<eis gis>2.) }
-  >> |
-  
-  <fis ais>4( <dis fis>4. <eis gis>8 |
-  <fis ais>4 <fis ais>8 <gis b> <fis ais> <gis b> |
-  <ais cis>4 <fis ais>4. <ais cis>8 |
-  <fis ais bis cisis eis ais>2.) \arpeggio |
-  
-  <dis fis>4( <b dis>4. <dis fis>8 |
+  <dis fis>4( \p <b dis>4. <dis fis>8 |
   <cisis eis ais>2.) \arpeggio \fermata | \bar "||"
   
   
   \time 3/8
   \tempo "Presto"
-  \ottava #1 <b'' b'>8-. \ottava #0
-    <dis,, fis>16( <eis gis> <dis fis> <eis gis> |
+  \ottava #1 <b'' b'>8-. -\markup{ \italic "surprise!" } \pp
+    \ottava #0 <dis,, fis>16( <eis gis> <dis fis> <eis gis> |
   <dis fis>8) <dis fis>16( <eis gis> <dis fis> <eis gis> |
   <dis fis>8) <dis fis>16( <eis gis> <dis fis> <eis gis> |
   <dis fis>8) <dis fis>16( <eis gis> <dis fis> <eis gis> |
@@ -560,12 +574,16 @@ upper = \relative c'' {
   <dis fis>4.)
   R4. |
     
-  fis'16 dis fis dis cis ais |
-  fis'16 dis fis dis cis ais | \bar "||"
+  fis'16-. dis-. fis-. dis-. cis-. ais-. |
+  fis'16-. -\markup{ \italic "rall." }
+    dis-. fis-. dis-. cis-. ais-. | \bar "||"
   
-  <fis' gis>16 dis <fis gis> dis <b cis> ais |
-  <fis' gis> dis <fis gis> dis <b cis> gis |
-  <fis' gis> dis <fis gis> dis <b cis> gis |
+  <fis' gis>16-. -\markup{ \italic "accel." }
+    dis-. <fis gis>-. dis-. <b cis>-. ais-. |
+  <fis' gis>-. -\markup{ \italic "a tempo" }
+    dis-. <fis gis>-. dis-. <b cis>-. gis-. |
+  <fis' gis> -\markup{ \italic "sim." }
+    dis <fis gis> dis <b cis> gis |
   <fis gis> e <fis gis> a ais <d g> |
   
   <fis gis>16 dis <gis ais>-> dis <b cis> ais |
@@ -593,14 +611,15 @@ upper = \relative c'' {
   <fis gis>16 dis <fis gis> dis <b cis> gis |
   <fis' gis> dis <fis gis> dis <b cis> gis |
   <fis' gis> dis <fis gis> dis <b cis> gis |
-  <fis gis> e <fis gis> a ais ais' |
+  <fis gis> \< e <fis gis> a ais ais' \! |
   
-  <fis gis> dis <cis' dis>-> dis, <b cis> gis |
+  <fis gis> \f dis <cis' dis>-> dis, <b cis> gis |
   <fis' gis> dis <cis' dis>-> dis, <b cis> gis |
-  <fis' gis> e <fis gis> a ais b |
-  \ottava #1 c <a' c> f c \ottava #0 <fis, ais> e |
+  <fis' gis> \< e <fis gis> a ais b \! |
+  \ottava #1 c <a' c>-> \> f c \ottava #0 <fis, ais> e \! |
   
-  <dis b'>8 <cis' dis>16 b ais gis |
+  <dis b'>8 <cis' dis>16 -\markup{ \italic "cresc." }
+    b ais gis |
   <<
     { b4.~ }
     \\
@@ -631,8 +650,8 @@ upper = \relative c'' {
   >>
   
   <<
-    { b8 \clef treble \ottava #1
-      <dis'' fis>16( <eis gis> <dis fis> <eis gis> }
+    { b8 \f \clef treble \ottava #1
+      <dis'' fis>16( \> <eis gis> <dis fis> <eis gis> }
     \\
     { <dis,,, fis>8) }
   >> |
@@ -655,12 +674,12 @@ upper = \relative c'' {
   >> |
   
   << 
-    { <dis fis>4.) }
+    { <dis fis>4.) \! }
     \\
     {}
   >> |
   \clef treble <b''' b'>-> \ff |
-  <b,, b'>-- \mf | \bar "|."
+  <b,, b'>-- \f | \bar "|."
 
 }
 
@@ -685,13 +704,13 @@ lower = \relative c'' {
   <bes' des> des, <aes' c> |
   <bes des> des, <aes' c> |
   <des, bes' des> <c c'> <b b'> |
-  <bes bes'> f' <d aes'> |
+  <bes bes'>( f' <d aes'>) |
   
   \clef bass
   ees, c' ges' |
-  b,, a' dis |
+  b,,( a' dis) |
   ees, c' ges' |
-  d, c' \clef treble <ees c'> |
+  d,( c' \clef treble <ees c'>) |
   
   \key bes \major
   g, <e' bes'> <cis g'> |
@@ -754,7 +773,7 @@ lower = \relative c'' {
   <des g> g, <b f' a> |
   <des g> g, <b f' a> |
   <des f g> g,( c, |
-  c, c') <bes' e> |
+  c, c')-- <bes' e> |
   <des g> g, <ges ges'> |
   <<
     {}
@@ -967,6 +986,7 @@ lower = \relative c'' {
   <b~ fis'~>4. |
   <b~ fis'~>4. |
   <b~ fis'~>4. |
+  <b~ fis'~>4. |
   <b fis'>4. |
   
   \time 3/4
@@ -986,12 +1006,12 @@ lower = \relative c'' {
   ais,,8( gis' bis dis cisis4) |
   
   dis,8( ais' bis2) |
-  d,8 gis( <b d>2) |
+  d,8( gis <b d>2) |
   cis,8( ais' cis4 fis) |
   bis,,8( fis' ais cisis dis4) |
   
   <gis,, fis'>2. |
-  <cis gis' b>2. |
+  <cis gis' b>2. \arpeggio \fermata |
   
   r16 gis''( fis cis dis cis fis, gis fis b, gis' fis |
   fisis cis' dis cis ais'-- cis, dis cis eis-- cis dis cis) |
@@ -1048,18 +1068,20 @@ lower = \relative c'' {
   <b fis' b>4. |
   
   \clef treble
-  fis'''8~ fis16 dis cis ais |
-  fis'8~ fis16 dis cis ais |
-  fis'16 dis fis dis cis ais |
-  fis'16 dis fis dis cis ais |
+  fis'''8~( fis16 dis cis ais) |
+  fis'8~( fis16 dis cis ais) |
+  fis'16( dis fis dis cis ais) |
+  fis'16( -\markup{ \italic "gradually more staccato" }
+    dis fis dis cis ais) |
   
   R4. |
   R4. |
   
   \clef bass
-  <dis, fis>8 fis, <cisis' eis> |
-  <dis fis>8 fis, <cisis' eis> |
-  <dis fis>8 fis, <cisis' eis> |
+  <dis, fis>8-. fis,-. <cisis' eis>-. |
+  <dis fis>8-. fis,-. <cisis' eis>-. |
+  <dis fis>8 -\markup{ \italic "sim." }
+    fis, <cisis' eis> |
   <cis, b'> gis' <fis e'> |
   
   <dis' fis>8 fis, <cisis' eis> |
@@ -1102,9 +1124,9 @@ lower = \relative c'' {
   <b cis> <e,, e'>-> <g g'>-> |
   
   <b b'>-> r \clef treble <fis''' fis'> |
-  <b b'> r <fis, fis'> |
-  <b b'> r \clef bass <fis, fis'> |
-  <b b'> r <fis, fis'> |
+  <b b'>-- r <fis, fis'> |
+  <b b'>-- r \clef bass <fis, fis'> |
+  <b b'>-- r <fis, fis'> |
   
   <b, b'>4.-> |
   <b'' b'>4.-> |
